@@ -1,0 +1,130 @@
+*{
+	/*重置样式*/
+	margin:0;/*/外边距*/
+	padding:0;/*/内边距*/
+}
+body{
+	background: url(../img/2.jpg)
+	
+}
+
+/*id选择器*/
+#mtl{
+	width: 768px;
+	height: 768px;
+	background: url(../img/fsw.png);
+	/*定位属性*/
+	position: absolute;
+	/*1水平居中*/
+	left: 50%;
+	margin-left: -384px ;
+	animation: rotate 3s linear infinite;
+
+}
+.bracket{
+	/* h529 Tab*/
+	width: 358px;
+	height: 529px;
+	background: url(../img/bracket.png);
+	position: absolute;
+	/*2水平垂直局中*/
+	left: 0;
+    right: 0;
+	bottom: -100px;
+	margin: auto;
+}
+div:nth-child(3){
+	width: 247px;
+	height: 490px;
+	background: url(../img/bracketsmall.png);
+	position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -50px;
+      margin: auto;
+}
+div:nth-child(4){
+	width: 48px;
+	height: 64px;
+	background:url(../img/arrow.png);
+	position: absolute;
+      left: 830px;
+      
+      bottom: 200px;
+   
+}
+div:nth-child(5){
+	width: 577px;
+	height: 257px;
+	background:url(../img/big-title.png);
+	position: absolute;
+      left: 550px;
+ 
+      bottom: 250px;
+      }
+     
+div:nth-child(6){
+	width: 413px;
+	height: 139px;
+	background:url(../img/title.png);
+	position: absolute;
+      left: 650px;
+ 
+      bottom: 200px;     
+     }
+#mtl ul li{
+	width: 130px;
+	height: 170px;
+	/*background:blue ;*/
+	position: absolute;
+	list-style: none;
+	animation: name 3s linear infinite;
+}
+@keyframes name{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(-360deg);}
+}
+
+li:nth-child(1){
+	background: url(../img/boy.png);
+	left: 81px;
+	top: 30px;
+}
+
+li:nth-child(2){
+	background: url(../img/girl.png);
+	left: 480px;
+	top: 5px;
+}
+
+li:nth-child(3){
+	background: url(../img/dog.png);
+	left: 10px;
+	top: 350px;
+}
+li:nth-child(4){
+	background: url(../img/girls.png);
+	left: 150px;
+	top: 600px;
+}
+
+li:nth-child(5){
+	background: url(../img/hairboy.png);
+	left: 450px;
+	top: 610px;
+}
+
+li:nth-child(6){
+	background: url(../img/mimi.png);
+	left: 650px;
+	top: 200px;
+}
+li:nth-child(7){
+	background: url(../img/mudog.png);
+	left: 650px;
+	top: 400px;
+}
+@keyframes rotate{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
